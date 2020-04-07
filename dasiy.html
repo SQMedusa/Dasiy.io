@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title> Daisy 施巧妹 网站</title>
+    <link rel="stylesheet" href="css/Dasiy.css">
+    <script type="text/javascript" src="js/Macao.js"></script>
+</head>
+<body>
+
+<div class="head">
+    <div class="head_top">
+       <P>Dasiy 施巧妹  我的界面</P>
+    </div>
+</div>
+<div class="demo">
+    <div class="nav">
+        <ul>
+            <li class="photo"><a id="one" href="photo.html" target="_blank">我的照片</a></li>
+            <li class="music"><a id="tow" href="music.html" target="_blank" >我的音乐</a></li>
+            <li class="video"><a id="three" href="video.html" target="_blank">我的录像</a></li>
+            <li class="diary"><a id="four" href="diary.html" target="_blank">我的日记</a></li>
+            <li class="fanzhuan"><a id="five" href="fanzhuan.html" target="_blank">我的玩意</a></li>
+            <li class="o'clock"><a id="six" href="o'lock.html" target="_blank">我的时钟</a></li>
+
+        </ul>
+    </div>
+</div>
+
+<div class="pit">
+    <div class="top">
+        <div class="top_left" title="请点击图片查看效果">
+            <center>
+                <a href="photo.html"target=_blank><img src="img/照片.jpg" align="center" id="pic"></a>
+            </center>
+            <script>
+                let pic = document.getElementById('pic');
+                pic.onmouseover = function(){
+                    this.style.width = 450 + 'px';
+                    this.style.height = 280 +'px';
+                }
+                pic.onmouseout = function(){
+                    this.style.width = 430 + 'px';
+                    this.style.height =260 + 'px';
+                }
+            </script>
+        </div>
+        <div class="top_right">
+            <div class="top_right_top"title="请点击图片查看效果">
+                <center>
+                    <a href="music.html" target=_blank><img src="img/音乐.jpg" align="center" id="pic1"></a>
+                </center>
+                <script>
+                    let pic1 = document.getElementById('pic1');
+                    pic1.onmouseover = function(){
+                        this.style.width = 220 + 'px';
+                        this.style.height = 273 +'px';
+                    }
+                    pic1.onmouseout = function(){
+                        this.style.width = 200 + 'px';
+                        this.style.height =253 + 'px';
+                    }
+                </script>
+            </div>
+
+        </div>
+    </div>
+    <div class="button">
+        <div class="but_one"title="请点击图片查看效果">
+            <center>
+                <a href="diary.html" target="_blank"><img src="img/便签.jpg" id="but1"  ></a>
+            </center>
+            <script>
+                let but1 = document.getElementById('but1');
+                but1.onmouseover = function(){
+                    this.style.width = 267 + 'px';
+                    this.style.height = 270 +'px';
+                }
+                but1.onmouseout = function(){
+                    this.style.width = 227 + 'px';
+                    this.style.height =230 + 'px';
+                }
+            </script>
+        </div>
+        <div class="but_tow"title="请点击图片查看效果">
+            <center>
+                <a href="video.html" target="_blank"><img src="img/录像.jpg" align="center" id="but2"></a>
+            </center>
+            <script>
+                let but2 = document.getElementById('but2');
+                but2.onmouseover = function(){
+                    this.style.width = 276 + 'px';
+                    this.style.height = 270 +'px';
+                }
+                but2.onmouseout = function(){
+                    this.style.width = 226 + 'px';
+                    this.style.height =230 + 'px';
+                }
+            </script>
+        </div>
+<div class="but_three"title="请点击图片查看效果">
+    <center>
+        <a href="fanzhuan.html" target="_blank"><img src="img/翻转.jpg" align="center" id="but3"></a>
+    </center>
+    <script>
+        let but3 = document.getElementById('but3');
+        but3.onmouseover = function(){
+            this.style.width = 269 + 'px';
+            this.style.height = 270 +'px';
+        }
+        but3.onmouseout = function(){
+            this.style.width = 229 + 'px';
+            this.style.height =230 + 'px';
+        }
+    </script>
+</div>
+</div>
+
+</div>
+
+
+<div class="foot">
+    <p style="font-family: 微软雅黑;color: #eaffe0;text-align: center;line-height: 80px">欢迎来到Dasiy 施巧妹 网页22223333</p>
+</div>
+<div>
+    <embed src="music/XXme%20-%20Beautiful%20World.mp3" hidden="true" autostart="true" loop="true"></embed>
+</div>
+<canvas id="canvas"></canvas>
+<script  src="js/index.js"></script>
+<script src="js/pictrue.js"></script>
+</body>
+</html>
